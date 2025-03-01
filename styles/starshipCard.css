@@ -1,0 +1,23 @@
+.starship-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.starship-card:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.starship-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.starship-card p {
+  font-size: 14px;
+  margin: 0;
+}
